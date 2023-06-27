@@ -16,7 +16,7 @@ Jars created:
 
 Command To Run Application Locally with uber jar (assuming your are inside repo):
 ```
-spark-submit --name "TradeEngine" --master local --class com.excercise.code.TradeExecution target/FxEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar input/inputOrders.csv
+spark-submit --name "TradeEngine" --master local --class com.refinitivengine.tcs.TradeEngine target/FxEngine-1.0.0-SNAPSHOT-jar-with-dependencies.jar input/inputOrders.csv
 ```
 where `input/inputOrders.csv` is path to the input orders file.
 
